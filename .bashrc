@@ -109,6 +109,9 @@ alias l='ls -CF'
 alias dd='dd status=progress'
 alias _='sudo'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias cp='cp -i'
+alias df='df -h'
+alias vim='nvim'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
