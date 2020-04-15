@@ -145,8 +145,26 @@ d/home/hamish/.config/alacritty
 	alacritty.yml
 1
 d/home/hamish/.config
-	akonadi
+	gtk-4.0
+24
+d/home/hamish/.config/vifm
+	vifmrc
 5
+d/home/hamish/.config
+	..
+0
+d/home/hamish
+	Downloads
+23
+d/home/hamish/Downloads
+	system-monitorparadoxxx.zero.gmail.com.v38.shell-extension.zip
+12
+d/home/hamish
+	Documents
+22
+d/home/hamish/Documents
+	Mojave_Install.iso
+7
 d
 
 # Right window history (oldest to newest):
@@ -158,6 +176,9 @@ D
 # Command line history (oldest to newest):
 :q
 :help
+:InstallPlugin
+:InstallPlugins
+:helptags ~/.vim/pack/vendor/start/nerdtree/doc -c q
 
 # Search history (oldest to newest):
 

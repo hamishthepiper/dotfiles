@@ -43,7 +43,7 @@ filetype plugin indent on    " required
 " => Remap Keys
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Remap ESC to ii
-:imap ii <Esc>
+":imap ii <Esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Powerline
@@ -59,7 +59,7 @@ set laststatus=2
 set t_Co=256
 
 syntax enable   
-set number relativenumber
+set number
 let g:rehash256 = 1
 
 " Uncomment to prevent non-normal modes showing in powerline and below powerline.
