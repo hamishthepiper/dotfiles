@@ -112,6 +112,11 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cp='cp -i'
 alias df='df -h'
 alias vim='nvim'
+alias la='ls -A'
+alias grep='ls --color=auto'
+alias mv='mv -i'
+alias rm='rm -i'
+alias cp='cp -i'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
