@@ -11,27 +11,10 @@
 declare options=("alacritty
 awesome
 bash
-broot
-bspwm
-compton
-doom.d/config.el
-doom.d/init.el
-dunst
-dwm
-emacs.d/init.el
-herbstluftwm
-i3
-polybar
 qtile
-st
-stumpwm
-sxhkd
-termite
+spectrwm
 vifm
 vim
-xmobar
-xmonad
-xresources
 zsh
 quit")
 
@@ -86,6 +69,9 @@ case "$choice" in
 	qtile)
 		choice="$HOME/.config/qtile/config.py"
 	;;
+    spectrwm)
+        choice="$HOME/.spectrwm.conf"
+    ;;
 	st)
 		choice="$HOME/st/config.h"
 	;;
