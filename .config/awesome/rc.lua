@@ -80,7 +80,7 @@ local themes = {
     "vertex",          -- 4
 }
 
-local chosen_theme = themes[1]
+local chosen_theme = themes[3]
 local modkey       = "Mod4"
 local altkey       = "Mod1"
 local terminal     = "alacritty"

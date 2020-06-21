@@ -23,7 +23,7 @@ POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S}"
 #POWERLEVEL9K_CUSTOM_WIFI_SIGNAL_BACKGROUND="blue"
 #POWERLEVEL9K_CUSTOM_WIFI_SIGNAL_FOREGROUND="yellow"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon root_indicator context dir_writable dir vcs newline time)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon root_indicator context dir_writable dir vcs)
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source  ~/powerlevel9k/powerlevel9k.zsh-theme 
