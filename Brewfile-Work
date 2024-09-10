@@ -1,0 +1,79 @@
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+brew "aichat"
+brew "bat"
+brew "bitwarden-cli"
+brew "dc3dd"
+brew "duf"
+brew "exa"
+brew "fzf"
+brew "git"
+brew "htop"
+brew "ipmitool"
+brew "jq"
+brew "lsd"
+brew "mas"
+brew "neovim"
+brew "nmap"
+brew "podman"
+brew "ripgrep"
+brew "shellcheck"
+brew "tailscale", link: false
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+cask "alfred"
+cask "amethyst"
+cask "balenaetcher"
+cask "blockblock"
+cask "brave-browser"
+cask "chromium"
+cask "db-browser-for-sqlite"
+cask "discord"
+cask "file-juicer"
+cask "firefox"
+cask "flameshot"
+cask "font-dejavu-sans-mono-for-powerline"
+cask "font-dejavu-sans-mono-nerd-font"
+cask "font-fira-code-nerd-font"
+cask "google-chrome"
+cask "google-drive"
+cask "grandperspective"
+cask "handbrake"
+cask "imhex"
+cask "iterm2"
+cask "keka"
+cask "little-snitch"
+cask "logi-options+"
+cask "nvidia-geforce-now"
+cask "obs"
+cask "obsidian"
+cask "proton-mail"
+cask "qflipper"
+cask "royal-tsx"
+cask "signal"
+cask "steam"
+cask "tailscale"
+cask "utm"
+cask "visual-studio-code"
+cask "wireshark"
+mas "Amphetamine", id: 937984704
+mas "Bitwarden", id: 1352778147
+mas "Disk Speed Test", id: 425264550
+mas "FANTASIAN", id: 1517339045
+mas "Final Cut Pro", id: 424389933
+mas "GarageBand", id: 682658836
+mas "Keynote", id: 409183694
+mas "Logic Pro", id: 634148309
+mas "Mini Motorways", id: 1456188526
+mas "Numbers", id: 409203825
+mas "Oceanhorn 2", id: 1460715987
+mas "Pages", id: 409201541
+mas "Sasquatch", id: 1465346522
+mas "Save to Reader", id: 1640236961
+mas "The Pathless", id: 1441675155
+vscode "github.codespaces"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "ms-vscode-remote.remote-containers"
