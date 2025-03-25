@@ -2,28 +2,22 @@
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
-# ls aliases
 alias ls="lsd -GFt"
 alias ll="lsd -tlGFh"
 alias la="lsd -taGFh"
 alias l="lsd -GFt"
 alias lla="lsd -talGFh"
+alias cat="bat"
 
 # Dotfiles config management
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-# alias common *nix binaries to custom ones
-alias cat="bat"
 
 # yoinked from https://github.com/clong/Post-Reformat/blob/master/Mac/dotfiles/.bash_aliases
 alias appupdate='mas upgrade'
 alias maintainbrew='brew update && brew upgrade --greedy && brew cleanup -s'
 alias gbr='git branch | grep -v "master" | grep -v "main" | xargs git branch -D' # Delete all local branches except master and main
 alias dockerprune='docker images | grep none | egrep -o "\w{12}" | xargs docker rmi'
-
-# Directories
-alias irdocs='cd /Users/jstephens/Projects/ir-docs'
 
 # Open with certain apps
 alias code='open -a Visual\ Studio\ Code -F $1'
