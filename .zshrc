@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 POWERLEVEL9K_MODE='nerdfont-complete'
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
@@ -223,6 +222,12 @@ if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi 
 
+# set FZF for history search
+source <(fzf --zsh)
+
+# set Editor
+export EDITOR=nvim
+export VISUAL="$EDITOR"
+
 # check for updates
-if [[ -n $(brew outdated) ]]; then echo "Brew updates available"; fi
->>>>>>> 01a858e (Add dotfiles)
+#if [[ -n $(brew outdated) ]]; then echo "Brew updates available"; fi

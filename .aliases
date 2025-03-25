@@ -4,11 +4,11 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # ls aliases
-alias ls="lsd -GF"
-alias ll="lsd -lGFh"
-alias la="lsd -aGFh"
-alias l="lsd -GF"
-alias lla="lsd -alGFh"
+alias ls="lsd -GFt"
+alias ll="lsd -tlGFh"
+alias la="lsd -taGFh"
+alias l="lsd -GFt"
+alias lla="lsd -talGFh"
 
 # Dotfiles config management
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -17,6 +17,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cat="bat"
 
 # yoinked from https://github.com/clong/Post-Reformat/blob/master/Mac/dotfiles/.bash_aliases
+alias appupdate='mas upgrade'
 alias maintainbrew='brew update && brew upgrade --greedy && brew cleanup -s'
 alias gbr='git branch | grep -v "master" | grep -v "main" | xargs git branch -D' # Delete all local branches except master and main
 alias dockerprune='docker images | grep none | egrep -o "\w{12}" | xargs docker rmi'
